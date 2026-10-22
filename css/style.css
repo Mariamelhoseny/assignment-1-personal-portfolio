@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.title {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #18487b;
+    color: white;
+    text-align: center;
+
+}
+
+
+.title h1,
+p {
+    margin-block: 10px;
+    padding-bottom: 10px;
+}
+
+.title a {
+    padding: 5px;
+    margin-inline: 5px;
+    color: #18487b;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.aboutme {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: white;
+    color: #18487b;
+    border-radius: 10px;
+
+}
+
+.line {
+    width: 100%;
+    height: 0.5px;
+    background-color: #18487b;
+    margin-block: 10px;
+}
+
+.aboutme .aboutcontainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.aboutme .my-img {
+    width: 12%;
+
+    img {
+        width: 100%;
+        border-radius: 500px;
+    }
+}
+
+.aboutme .about-txt {
+    width: 88%;
+
+    p {
+        padding: 10px;
+        width: 100%;
+        color: #18487b;
+    }
+
+    a {
+        padding: 5px;
+        color: white;
+        background-color: #18487b;
+        border-radius: 5px;
+    }
+}
+
+.myskills {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: #18487b;
+
+    p {
+        padding: 10px 0;
+    }
+
+}
+
+.skills {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+
+}
+
+.s-card {
+    width: calc((100% / 5) - 2px);
+    padding: 10px;
+    border: 1px solid #18487b2d;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+.s-card img {
+    width: 90%;
+}
+
+
+
+.experience {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: #18487b;
+    background-color: white;
+    border-radius: 10px;
+
+
+
+}
+
+.experience .line {
+    width: 100%;
+    height: 0.5px;
+    margin-block: 10px;
+    color: #18487b;
+
+}
+
+.ex-container {
+    width: 100%;
+    border: 3px solid #18487b;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.layer {
+    width: 100%;
+    background-color: white;
+    color: #18487b;
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    border-radius: 40px;
+    border: 1px solid #18487b2d;
+
+}
+
+.head {
+    width: 85%;
+    padding: 5px 5px;
+}
+
+.img-card {
+    width: 10%;
+}
+
+.img-card img {
+    width: 100%;
+    padding: 2px;
+
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #18487b;
+    color: white;
+
+    p {
+        padding: 10px 0;
+    }
+
+}
+
+.contact .line {
+    width: 100%;
+    height: 0.5px;
+    background-color: white;
+    margin-block: 10px;
+}
+
+.contact a {
+    padding: 5px;
+    margin-inline: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.454);
+    border-radius: 5px;
+}
